@@ -1,0 +1,20 @@
+{
+  "name": "xss-and-xsrf-spike",
+  "version": "0.1.0",
+  "description": "A small spike project to show a minimal example of xss and xsrf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node spike/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htbkoo/XssAndXsrfSpike.git"
+  },
+  "author": "htbkoo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/htbkoo/XssAndXsrfSpike/issues"
+  },
+  "homepage": "https://github.com/htbkoo/XssAndXsrfSpike#readme"
+}
