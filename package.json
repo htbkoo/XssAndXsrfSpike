@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/htbkoo/XssAndXsrfSpike/issues"
   },
-  "homepage": "https://github.com/htbkoo/XssAndXsrfSpike#readme"
+  "homepage": "https://github.com/htbkoo/XssAndXsrfSpike#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  }
 }
